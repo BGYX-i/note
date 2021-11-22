@@ -26,3 +26,13 @@
 
 ![image-20211121204224769](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211121204224769.png)
 
+![image-20211121204452213](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211121204452213.png)
+
+特别说明：1.多分支可以没有else，如果所有的条件表达式都不成立，则一个执行入口都没有
+
+​					2.如果有elsel语句，如果所有的条件表达式都不成立，则默认执行else代码块
+
+3.switch分支结构：
+
+![image-20211121213709228](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211121213709228.png)
+
