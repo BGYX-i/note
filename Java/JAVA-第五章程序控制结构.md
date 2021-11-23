@@ -36,3 +36,37 @@
 
 ![image-20211121213709228](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211121213709228.png)
 
+ Switch快速入门
+
+![image-20211122214653278](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211122214653278.png)
+
+```
+在java中，只有有值返回，就是一个表达式
+```
+
+switch分支细节讨论：
+
+![image-20211122215702748](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211122215702748.png)
+
+```
+case字句中的值必须是常量不能是变量
+```
+
+```
+//switch 表达式中的返回值必须是：
+// ('char、byte、short、int、Character、Byte、Short、Integer、String 或枚举')
+```
+
+```
+//default子句是可选的，当没有匹配case时执行default
+```
+
+```
+//break语句是执行完一个case分支后使程序跳出switch语句块，如果没有写break，程序会顺序执行到switch结尾
+```
+
+![image-20211122232902256](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211122232902256.png)
+
+fot循环控制：
+
+![image-20211123212732625](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211123212732625.png)
