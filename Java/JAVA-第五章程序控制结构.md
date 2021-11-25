@@ -71,3 +71,33 @@ fot循环控制：
 
 ![image-20211123212732625](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211123212732625.png)
 
+![image-20211123213040658](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211123213040658.png)
+
+![image-20211123213844220](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211123213844220.png)
+
+ ![image-20211123214853629](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211123214853629.png)
+
+```
+//编程思想：
+//1.化繁为简：将复杂的需求，拆解成简单的需求，逐步完成
+//2.先死后活：先考虑固定的值，然后转成可以灵活变换的值
+```
+
+while循环：
+
+![image-20211124214417983](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211124214417983.png)
+
+do while循环：
+
+![image-20211124220522838](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211124220522838.png)
+
+多重循环：
+
+![image-20211125211116816](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211125211116816.png)
+
+ 
+
+break：
+
+![image-20211125230058014](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211125230058014.png)
+
