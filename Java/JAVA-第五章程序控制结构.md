@@ -101,3 +101,13 @@ break：
 
 ![image-20211125230058014](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211125230058014.png)
 
+![image-20211126213753953](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211126213753953.png)
+
+```
+equals("丁真")方法，用于比较字符串内容是否想的
+```
+
+continue语句：
+
+![image-20211126224546246](../Picture_saving_address/JAVA-第五章程序控制结构/image-20211126224546246.png)
+
