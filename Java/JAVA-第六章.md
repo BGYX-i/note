@@ -1,4 +1,4 @@
-**数组介绍**
+# **数组介绍**
 
 ![image-20211202222239080](../Picture_saving_address/JAVA-第六章/image-20211202222239080.png)
 
@@ -26,12 +26,29 @@ public class ArrayTest {
 }
 ```
 
-**数组的使用方式**：
+## **数组的使用方式**：
+
+#### **使用方法1-动态初始化**
 
 ![image-20211202224353456](../Picture_saving_address/JAVA-第六章/image-20211202224353456.png)
 
 ```
 1.中括号可以写在数据类型后面或者是写在数组名后面
+2.初始化的内容根据不同数据类型使用不同的默认值 int：0 double：0.0 等等
+3.数组的下标是从0开始的
 
+        double[] chengJ=new double[5];
+        Scanner scanner = new Scanner(System.in);
+        for(int index=0;index<chengJ.length;index++){
+            System.out.println("请输入第"+(index+1)+"个成绩");
+            chengJ[index]=scanner.nextDouble();
+        }
+        for(int index=0;index<chengJ.length;index++){
+            System.out.println("第"+(index+1)+"个成绩为："+chengJ[index]);
+        }
+    }
+}
 ```
+
+![image-20211202224807661](../Picture_saving_address/JAVA-第六章/image-20211202224807661.png)
 
