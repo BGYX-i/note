@@ -52,3 +52,46 @@ public class ArrayTest {
 
 ![image-20211202224807661](../Picture_saving_address/JAVA-第六章/image-20211202224807661.png)
 
+#### 使用方式2-动态初始化
+
+![image-20211212104626493](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211212104626493.png)
+
+```
+int[] a;  先声明数组在new分配空间
+a=new int[5];
+
+```
+
+![image-20211215214820939](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211215214820939.png)
+
+#### 使用方式2-静态初始化
+
+![image-20211215215221282](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211215215221282.png)
+
+#### 数组的使用细节：
+
+![image-20211215215458382](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211215215458382.png)
+
+ 
+
+```
+//        1.数组是多个相同类型的数据的组合，实现对这些数据的统一管理
+        double[] arr1={2,3,4,5,1.1 };
+//        2.数组中的元素可以是任何数据类型，包括基本数据类型和引用数据类型，但是不能混用
+//        3.数组创建后，如果没有复制，有默认值
+//        int 0，short 0，byte 0，,long 0,
+        short arr[]=new short[3];
+        for (int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+//        double 0.0，float 0.0;
+//        char \u0000
+//        boolean fales;
+//        String null;
+//        4.使用数组的步骤：先声明数组并开辟空间，给数组个个元素赋值，使用数组
+//        5.数组的下标都是从0开始
+//        6.数组的下标必须在制定的范围使用，否则会报 下标越界  最大下标 数组的长度-1
+        System.out.println(arr[3]);
+//        7.数组属于引用数据类型，数组型数据是对象（Object）
+```
+
