@@ -95,3 +95,7 @@ a=new int[5];
 //        7.数组属于引用数据类型，数组型数据是对象（Object）
 ```
 
+#### 数组的赋值机制
+
+![image-20211215224625335](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211215224625335.png)
+
