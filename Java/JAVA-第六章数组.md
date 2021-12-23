@@ -100,3 +100,25 @@ a=new int[5];
 ![image-20211215224625335](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211215224625335.png)
 
  
+
+```
+int[] arr1={1,2,3};
+int[] arr2=arr1;//吧arr1赋给arr2;
+arr2[0]=10;
+值（值拷贝）传递和引用传递（地址拷贝）的区别：
+jvm内存：jvm中内存分3个部分，栈 堆 方法区
+基本数据类型存储在栈中（存储值）  值拷贝
+引用数据类型在栈中存储一个地址，地址指向堆中空间内的数据 
+
+在内存里面只要分配了一个空间，一定会对应一个地址
+基本数据类型拷贝具体的数据，引用数据类型拷贝的是地址
+```
+
+![image-20211216230142851](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211216230142851.png)
+
+#### 数组拷贝：
+
+![image-20211220231228341](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211220231228341.png)
+
+![image-20211220234833921](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211220234833921.png)
+
