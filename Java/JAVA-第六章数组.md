@@ -122,3 +122,11 @@ jvm内存：jvm中内存分3个部分，栈 堆 方法区
 
 ![image-20211220234833921](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211220234833921.png)
 
+#### 数组添加
+
+![image-20211223224214109](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211223224214109.png)
+
+#### 排序的介绍：
+
+![image-20211226212948370](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211226212948370.png)
+
