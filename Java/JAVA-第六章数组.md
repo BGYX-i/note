@@ -140,3 +140,14 @@ jvm内存：jvm中内存分3个部分，栈 堆 方法区
 
 #### 二位数组的使用方式：![image-20211227231634106](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211227231634106.png)
 
+```
+第一个中括号大小代表：包含几个一维数组
+第二个中括号大小代表：每一个一维数组里面有几个元素
+```
+
+![image-20211227232316414](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211227232316414.png)
+
+###### 数组在内存中的存储：
+
+![image-20211227232845031](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211227232845031.png)
+
