@@ -151,3 +151,24 @@ jvm内存：jvm中内存分3个部分，栈 堆 方法区
 
 ![image-20211227232845031](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211227232845031.png)
 
+#### 二位数组使用方式(第二章)：动态初始化
+
+![image-20211229223015329](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211229223015329.png)
+
+```
+int arr[][];
+arr=new int[2][3];
+```
+
+#### 二位数组使用方式（第三种）：动态初始化-列数不确定
+
+在java中二维数组中的每一个一维数组的个数不一致（列数不确定）
+
+#### 二位数组第四种使用方法：静态初始化
+
+![image-20211229224912611](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211229224912611.png)
+
+#### 二位数组的使用细节：
+
+![image-20211230222553884](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211230222553884.png)
+
