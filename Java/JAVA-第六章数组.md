@@ -172,3 +172,11 @@ arr=new int[2][3];
 
 ![image-20211230222553884](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20211230222553884.png)
 
+本章作业：
+
+![image-20220103221404408](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220103221404408.png)
+
+```
+在ArrayTest02类中有
+```
+
