@@ -176,7 +176,21 @@ arr=new int[2][3];
 
 ![image-20220103221404408](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220103221404408.png)
 
+![image-20220103222013700](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220103222013700.png)
+
 ```
 在ArrayTest02类中有
 ```
+
+#### 数组内容回顾：
+
+![image-20220105222108143](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222108143.png)
+
+![image-20220105222405368](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222405368.png)
+
+![image-20220105222433511](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222433511.png)
+
+![image-20220105222445577](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222445577.png)
+
+![image-20220105222452589](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222452589.png)
 
