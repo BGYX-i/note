@@ -194,3 +194,16 @@ arr=new int[2][3];
 
 ![image-20220105222452589](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222452589.png)
 
+![image-20220105222647738](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222647738.png)
+
+![image-20220105222820232](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105222820232.png)
+
+![image-20220105223003045](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105223003045.png)
+
+![image-20220105223008543](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105223008543.png)
+
+![image-20220105223024164](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105223024164.png)
+
+![image-20220105223101909](C:\Users\11340\AppData\Roaming\Typora\typora-user-images\image-20220105223101909.png)
+
+  
