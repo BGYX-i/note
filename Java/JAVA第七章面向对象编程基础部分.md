@@ -41,6 +41,7 @@
   		       2.行为（方法信息）
  2.真正的对象在堆中（包括方法区的数据），栈中的cat只是对象引用或对象名
  3.对象的默认值，与数组的一致
+ 4.只要有数据空间，就一定有地址
 ```
 
 ![image-20220106231544248](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220106231544248.png)
@@ -69,4 +70,41 @@ field 字段
 #### 如何访问属性：
 
 ![image-20220106232152848](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220106232152848.png)
+
+![image-20220109094849682](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109094849682.png)
+
+![image-20220109095754791](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109095754791.png)
+
+#### Java内存的结构分析：
+
+类与对象的内存分配机制：
+
+![image-20220109100842892](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109100842892.png)
+
+![image-20220109140403925](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109140403925.png)
+
+#### 成员方法：
+
+![image-20220109140440546](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109140440546.png)
+
+```
+//    1.public 表示方法是公开的
+//    2.void 表示方法没有返回值
+//    3.speak表示方法名，()形参列表
+//    4.{}方法体，可以写我们要执行的代码 相关的功能
+//    方法写好后如果不去调用不会输出
+    public void speak(){
+//        我们的方法就是输出一句话,.System.out.println("我是一个好人")
+        System.out.println("我是一个好人");
+    }
+}
+```
+
+#### 方法的调用机制：
+
+![image-20220109150928400](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109150928400.png)
+
+![image-20220109151322877](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220109151322877.png)
+
+* return语句返回以后，getSum的空间就被释放了，就没有了
 
