@@ -1,8 +1,14 @@
 ### app自动化环境搭建：
 
-环境搭建：
-
-1.appium ，JDK，SDK
 
 
+
+
+#### adb获取包名方法：
+
+1.使用命令：adb shell am monitor，回车，然后启动你想要获取包名的那个应用，即可获得
+
+2.adb shell dumpsys activity recents | find "intent={"
+
+![image-20220109235057163](../Picture_saving_address/app自动化环境搭建/image-20220109235057163.png)
 
