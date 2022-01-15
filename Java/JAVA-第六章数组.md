@@ -54,7 +54,7 @@ public class ArrayTest {
 
 #### 使用方式2-动态初始化
 
-![image-20211212104626493](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211212104626493.png)
+![image-20211212104626493](../Picture_saving_address\typora-user-images\image-20211212104626493.png)
 
 ```
 int[] a;  先声明数组在new分配空间
@@ -62,15 +62,15 @@ a=new int[5];
 
 ```
 
-![image-20211215214820939](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211215214820939.png)
+![image-20211215214820939](../Picture_saving_address/JAVA-第六章数组/image-20211215214820939.png)
 
 #### 使用方式2-静态初始化
 
-![image-20211215215221282](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211215215221282.png)
+![image-20211215215221282](../Picture_saving_address\typora-user-images\image-20211215215221282.png)
 
 #### 数组的使用细节：
 
-![image-20211215215458382](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211215215458382.png)
+![image-20211215215458382](../Picture_saving_address\typora-user-images\image-20211215215458382.png)
 
  
 
@@ -97,7 +97,7 @@ a=new int[5];
 
 #### 数组的赋值机制
 
-![image-20211215224625335](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211215224625335.png)
+![image-20211215224625335](../Picture_saving_address\typora-user-images\image-20211215224625335.png)
 
  
 
@@ -114,21 +114,21 @@ jvm内存：jvm中内存分3个部分，栈 堆 方法区
 基本数据类型拷贝具体的数据，引用数据类型拷贝的是地址
 ```
 
-![image-20211216230142851](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211216230142851.png)
+![image-20211216230142851](../Picture_saving_address\typora-user-images\image-20211216230142851.png)
 
 #### 数组拷贝：
 
-![image-20211220231228341](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211220231228341.png)
+![image-20211220231228341](../Picture_saving_address\typora-user-images\image-20211220231228341.png)
 
-![image-20211220234833921](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211220234833921.png)
+![image-20211220234833921](../Picture_saving_address\typora-user-images\image-20211220234833921.png)
 
 #### 数组添加
 
-![image-20211223224214109](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211223224214109.png)
+![image-20211223224214109](../Picture_saving_address\typora-user-images\image-20211223224214109.png)
 
 #### 排序的介绍：
 
-![image-20211226212948370](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211226212948370.png)
+![image-20211226212948370](../Picture_saving_address\typora-user-images\image-20211226212948370.png)
 
 #### 二位数组：
 
@@ -138,22 +138,22 @@ jvm内存：jvm中内存分3个部分，栈 堆 方法区
 //2.相当于你原来的一维数组的，每个元素是又是一个一维数组，就构成了二维数组
 ```
 
-#### 二位数组的使用方式：![image-20211227231634106](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211227231634106.png)
+#### 二位数组的使用方式：![image-20211227231634106](../Picture_saving_address\typora-user-images\image-20211227231634106.png)
 
 ```
 第一个中括号大小代表：包含几个一维数组
 第二个中括号大小代表：每一个一维数组里面有几个元素
 ```
 
-![image-20211227232316414](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211227232316414.png)
+![image-20211227232316414](../Picture_saving_address\typora-user-images\image-20211227232316414.png)
 
 ###### 数组在内存中的存储：
 
-![image-20211227232845031](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211227232845031.png)
+![image-20211227232845031](../Picture_saving_address\typora-user-images\image-20211227232845031.png)
 
 #### 二位数组使用方式(第二章)：动态初始化
 
-![image-20211229223015329](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211229223015329.png)
+![image-20211229223015329](../Picture_saving_address\typora-user-images\image-20211229223015329.png)
 
 ```
 int arr[][];
@@ -166,17 +166,17 @@ arr=new int[2][3];
 
 #### 二位数组第四种使用方法：静态初始化
 
-![image-20211229224912611](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211229224912611.png)
+![image-20211229224912611](../Picture_saving_address\typora-user-images\image-20211229224912611.png)
 
 #### 二位数组的使用细节：
 
-![image-20211230222553884](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20211230222553884.png)
+![image-20211230222553884](../Picture_saving_address\typora-user-images\image-20211230222553884.png)
 
 本章作业：
 
-![image-20220103221404408](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220103221404408.png)
+![image-20220103221404408](../Picture_saving_address\typora-user-images\image-20220103221404408.png)
 
-![image-20220103222013700](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220103222013700.png)
+![image-20220103222013700](../Picture_saving_address\typora-user-images\image-20220103222013700.png)
 
 ```
 在ArrayTest02类中有
@@ -184,26 +184,26 @@ arr=new int[2][3];
 
 #### 数组内容回顾：
 
-![image-20220105222108143](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222108143.png)
+![image-20220105222108143](../Picture_saving_address\typora-user-images\image-20220105222108143.png)
 
-![image-20220105222405368](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222405368.png)
+![image-20220105222405368](../Picture_saving_address\typora-user-images\image-20220105222405368.png)
 
-![image-20220105222433511](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222433511.png)
+![image-20220105222433511](../Picture_saving_address\typora-user-images\image-20220105222433511.png)
 
-![image-20220105222445577](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222445577.png)
+![image-20220105222445577](../Picture_saving_address\typora-user-images\image-20220105222445577.png)
 
-![image-20220105222452589](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222452589.png)
+![image-20220105222452589](../Picture_saving_address\typora-user-images\image-20220105222452589.png)
 
-![image-20220105222647738](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222647738.png)
+![image-20220105222647738](../Picture_saving_address\typora-user-images\image-20220105222647738.png)
 
-![image-20220105222820232](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105222820232.png)
+![image-20220105222820232](../Picture_saving_address\typora-user-images\image-20220105222820232.png)
 
-![image-20220105223003045](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105223003045.png)
+![image-20220105223003045](../Picture_saving_address\typora-user-images\image-20220105223003045.png)
 
-![image-20220105223008543](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105223008543.png)
+![image-20220105223008543](../Picture_saving_address\typora-user-images\image-20220105223008543.png)
 
-![image-20220105223024164](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105223024164.png)
+![image-20220105223024164](../Picture_saving_address\typora-user-images\image-20220105223024164.png)
 
-![image-20220105223101909](E:\Self_study_notes\Picture_saving_address\typora-user-images\image-20220105223101909.png)
+![image-20220105223101909](../Picture_saving_address\typora-user-images\image-20220105223101909.png)
 
   
