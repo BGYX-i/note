@@ -134,3 +134,44 @@ field 字段
 
 ![image-20220113225340556](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220113225340556.png)
 
+#### 方法递归调用：
+
+![image-20220116213339391](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220116213339391.png)
+
+![image-20220116213512943](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220116213512943.png)
+
+![image-20220116222548701](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220116222548701.png)
+
+![image-20220116223638173](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220116223638173.png)
+
+![image-20220116223749549](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220116223749549.png)
+
+![image-20220118222427527](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220118222427527.png)
+
+```
+//画内存分析法明白了
+//猴子吃桃子问题
+public int peach(int day) {  //8
+    if (day == 10) {
+        return 1;
+    } else if (day >= 1 && day <= 9) {
+        return (peach(day + 1)      + 1) * 2;
+    } else {
+        System.out.println("输入的天数不对");
+        return -1;
+    }
+
+
+}
+```
+
+**![image-20220118224306481](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220118224306481.png)**
+
+```
+ //思路：
+        //1.先创建迷宫，int[][] map=new int[8][7];
+        //2.现规定map数组的元素，0是可以走，1是强
+```
+
+![image-20220119223914853](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220119223914853.png)
+
