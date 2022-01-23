@@ -189,3 +189,22 @@ public int peach(int day) {  //8
 
 ![image-20220120225120208](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220120225120208.png)
 
+![image-20220123214303825](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123214303825.png)
+
+```
+ Methods methods=new Methods();
+ methods.sum(1,3,4,5);
+
+//int...表示可以接收的是可变参数，类型是int ，既可以接收（0-多）
+//使用可变参数时可以当做数组来使用nums  既nums可以当做数组使用
+public int sum(int... nums){
+    System.out.println("接收的参数个数"+nums.length);
+    System.out.println(nums[0]);
+    return 1;
+}
+```
+
+![image-20220123225311410](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123225311410.png)
+
+![image-20220123230915966](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123230915966.png)
+
