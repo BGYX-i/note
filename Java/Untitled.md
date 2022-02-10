@@ -1,1 +1,0 @@
-![image-20220124000017851](../Picture_saving_address/Untitled/image-20220124000017851.png)

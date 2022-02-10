@@ -1,3 +1,5 @@
+
+
 ## 面向对象编程基础部分
 
 ![image-20220105224148978](../Picture_saving_address\typora-user-images\image-20220105224148978.png)
@@ -206,5 +208,170 @@ public int sum(int... nums){
 
 ![image-20220123225311410](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123225311410.png)
 
+#### 作用域：
+
 ![image-20220123230915966](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123230915966.png)
+
+![image-20220124230410263](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220124230410263.png)
+
+![image-20220124225550696](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220124225550696.png)
+
+```
+package src.java_object_oriented;
+
+public class VarScopDetail {
+    public static void main(String[] args) {
+        PersonTest p = new PersonTest();
+
+//        System.out.println(new PersonTest().name);
+        /*
+            当执行say方法时，say方法的局部变量name会创建，当say方法执行完毕后name
+            局部变量就会被销毁，但是PersonTest中的name还是可以使用的
+        */
+        p.say();
+
+        psueh psueh = new psueh();
+        psueh.tests(p);
+
+        psueh.tesy1();
+    }
+}
+
+class psueh {
+
+
+    //全局变量可以在本类中使用也可以在其他类中使用
+    public void tesy1() {
+        PersonTest p = new PersonTest();
+        System.out.println(p.name);
+    }
+
+    public void tests(PersonTest personTest) {
+        System.out.println(personTest.name);
+    }
+}
+
+
+class PersonTest {
+    //全局变量可以加修饰符(public,private, protected ...)，局部变量不能加修饰符
+    public int age=20;
+
+    String name = "jack";
+
+    public void say() {
+        //细节 属性和局部变量可以重名，访问时遵循就近原则
+        String name = "jjj";
+        System.out.println(name);
+    }
+
+    public void hi() {
+        String address = "北京";
+//        String address="shanghaio";
+    }
+}
+```
+
+#### 构造方法/构造器：
+
+![image-20220124230846556](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220124230846556.png)
+
+![image-20220124230853445](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220124230853445.png)
+
+```
+//主要作用：是完成对新对象的初始化
+//构造器是完成对对象的初始化
+package src.java_object_oriented;
+
+public class Constructor {
+    public static void main(String[] args) {
+        //当我们new一个对象的时候，直接通过构造器指定名字和年龄
+        Personer pes=new Personer("刘十三",22);
+        System.out.println(pes.age+","+pes.name);
+    }
+
+}
+
+class Personer{
+    String name;
+    int age;
+//    构造器没有返回值，也不能返回void
+//    构造器的名称和类名必须一样
+//    构造器的形参列表规则和成员方法一样
+    public Personer(String pname,int page){
+        System.out.println("构造器被调用，完成对象的属性初始化");
+        name=pname;
+        age=page;
+    }
+}
+
+```
+
+![image-20220125230240308](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125230240308.png)
+
+![image-20220125230534067](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125230534067.png)
+
+```
+javap 指令反编译成类
+```
+
+![image-20220125231507939](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125231507939.png)
+
+![image-20220125231644066](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125231644066.png)
+
+![image-20220125231716784](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125231716784.png)
+
+![image-20220125231722628](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125231722628.png)
+
+#### 对象创建流程分析：
+
+![image-20220209224301956](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220209224301956.png)
+
+```e
+1.真正的对象是在堆里面，p是对象的引用（或者是对象名）
+```
+
+#### this关键字：
+
+![image-20220210212039239](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210212039239.png)
+
+```
+不同的对象都有一个this，但是不同的对象来用this的时候它就指向不同的对象
+this在堆中是一个引用，指向对象自己
+this.hashCode() 可以打出this的对象地址，可以把他看做地址，但是它不是地址
+
+class Bog{
+    String name;
+    int age;
+//    public Bog(String bname,int bage){
+//        name=bname;
+//        age=bage;
+//    }
+    //如果我们的构造器参数，能直接写成属性名，就更好了
+    //但是出现了一个问题，根据变量的作用域原则
+//    构造器的name就是局部变量了而不是属性了
+//    构造器的age是局部变量，不是属性了
+    // ==>引出this关键字来解决
+    public Bog(String name,int age){
+        //this.name 就是当前对象的属性
+        //this.age  就是当前对象的属性
+        this.name=name;
+        this.age=age;
+    }
+    public void info(){
+        System.out.println(name+"\t"+age+"\t");
+    }
+}
+```
+
+深入了解this：
+
+![image-20220210213253714](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210213253714.png)
+
+那个对象调用this，this就代表那个对象
+
+![image-20220210215039005](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210215039005.png)
+
+this课堂练习：
+
+![image-20220210221127863](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210221127863.png)
 
