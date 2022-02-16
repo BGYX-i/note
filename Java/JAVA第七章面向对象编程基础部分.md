@@ -54,7 +54,7 @@
 
 ![image-20220106225658066](../Picture_saving_address\typora-user-images\image-20220106225658066.png)
 
-field 字段
+field == 字段
 
 #### 属性的注意事项：
 
@@ -197,7 +197,7 @@ public int peach(int day) {  //8
  Methods methods=new Methods();
  methods.sum(1,3,4,5);
 
-//int...表示可以接收的是可变参数，类型是int ，既可以接收（0-多）
+//int...表示可以接收的是可变参数，类型是int ，既可以接收（0-多个参数）
 //使用可变参数时可以当做数组来使用nums  既nums可以当做数组使用
 public int sum(int... nums){
     System.out.println("接收的参数个数"+nums.length);
@@ -211,6 +211,8 @@ public int sum(int... nums){
 #### 作用域：
 
 ![image-20220123230915966](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220123230915966.png)
+
+##### 作用域的使用细节：
 
 ![image-20220124230410263](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220124230410263.png)
 
@@ -306,6 +308,8 @@ class Personer{
 
 ```
 
+##### 构造器的使用细节和注意事项：
+
 ![image-20220125230240308](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125230240308.png)
 
 ![image-20220125230534067](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220125230534067.png)
@@ -367,7 +371,9 @@ class Bog{
 
 ![image-20220210213253714](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210213253714.png)
 
-那个对象调用this，this就代表那个对象
+```
+//那个对象调用this，this就代表那个对象
+```
 
 ![image-20220210215039005](../Picture_saving_address/JAVA第七章面向对象编程基础部分/image-20220210215039005.png)
 
