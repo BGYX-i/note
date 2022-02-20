@@ -44,3 +44,25 @@
 
 ![image-20220216231021812](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220216231021812.png)
 
+#### 访问修饰符：
+
+![image-20220218221016022](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218221016022.png)
+
+![image-20220218221239050](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218221239050.png)
+
+#### 面向对象的三大特征：
+
+![image-20220218224620546](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218224620546.png)
+
+#### 封装：
+
+![image-20220218224637761](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218224637761.png)
+
+#### 封装的好处：
+
+![image-20220218225004540](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218225004540.png)
+
+![image-20220218225617789](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218225617789.png)
+
+![image-20220218225756069](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220218225756069.png)
+
