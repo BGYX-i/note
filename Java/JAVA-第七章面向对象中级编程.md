@@ -168,3 +168,32 @@ class  Son extends Father {//子类
 
 ![image-20220220230120985](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220220230120985.png)
 
+#### 方法重写：
+
+![image-20220222215124752](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220222215124752.png)
+
+#### 方法重写的注意事项：
+
+![image-20220222220131086](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220222220131086.png)
+
+```
+    子类方法返回类型和父类方法返回类型一致；
+//  方法的返回数据类型是父类返回类型的子类  比如：父类返回object 子类返回 String也构成方法重写
+```
+
+![image-20220223214148698](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220223214148698.png)
+
+#### 面向对象编程多态：
+
+![image-20220224220716072](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220224220716072.png)
+
+```
+//多态提高代码的复用性
+```
+
+![image-20220228223817878](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220228223817878.png)
+
+![image-20220228224528686](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220228224528686.png)
+
+![image-20220228231012864](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220228231012864.png)
+
