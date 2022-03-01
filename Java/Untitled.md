@@ -20,3 +20,11 @@
 
 ![image-20220224215811381](../Picture_saving_address/Untitled/image-20220224215811381.png)
 
+多态的课堂练习：
+
+![image-20220301225520618](../Picture_saving_address/Untitled/image-20220301225520618.png)
+
+  
+
+![image-20220301225815557](../Picture_saving_address/Untitled/image-20220301225815557.png)
+
