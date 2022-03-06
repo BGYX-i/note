@@ -264,3 +264,49 @@ class BB extends AA {
 }
 ```
 
+####  Java动态绑定机制：
+
+![image-20220302222158346](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220302222158346.png)
+
+![image-20220302223023597](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220302223023597.png)
+
+![image-20220303220654375](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220303220654375.png)
+
+#### Object详解：
+
+![image-20220303223031880](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220303223031880.png)
+
+![image-20220303223348696](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220303223348696.png)
+
+![image-20220303223407271](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220303223407271.png)
+
+```
+==是一个比较运算符
+```
+
+![image-20220303224045376](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220303224045376.png)
+
+![image-20220306144920699](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306144920699.png)
+
+![image-20220306145627156](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306145627156.png)
+
+![image-20220306184132926](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306184132926.png)
+
+```
+在实际开放中几乎不会去运用finalize方法
+```
+
+#### 断点调试：
+
+![image-20220306185349946](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306185349946.png)
+
+![image-20220306185138096](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306185138096.png)
+
+![image-20220306185229115](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306185229115.png)
+
+![image-20220306185905170](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306185905170.png)
+
+![image-20220306190307069](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306190307069.png)
+
+![image-20220306190841833](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220306190841833.png)
+
