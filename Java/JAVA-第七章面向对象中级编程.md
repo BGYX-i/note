@@ -10,6 +10,8 @@
 
 ####  IDEA常用快捷键：
 
+![image-20220314223050099](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220314223050099.png)
+
 ![image-20220215225902546](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220215225902546.png)
 
 ![image-20220215232315611](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220215232315611.png)
@@ -27,6 +29,8 @@
 ![image-20220216223231111](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220216223231111.png)
 
 ![image-20220216223646160](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220216223646160.png)
+
+![image-20220314223214889](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220314223214889.png)
 
 #### 包的命名规则和规范：
 
@@ -204,7 +208,7 @@ class  Son extends Father {//子类
 ![image-20220301220132421](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220301220132421.png)
 
 ```
-父类引用指向子类对象，就是想上转型
+父类引用指向子类对象，就是向上转型
 Animal animal = new Dog();
 可以的调用父类的所有方法但是需要遵守访问权限，但是不能调用子类特有的成员（方法和属性）
 因为在编译阶段，能调用成员（方法和属性）是由编译类型来决定的
@@ -219,6 +223,7 @@ Animal animal = new Dog();
 Cat cat=(Cat) animal;
 编译类型是 Cat 运行类型是 Cat
 父类的引用必须指向的是当前目标类型的对象
+属性是没用重写之说的，属性的值看编译类型
 ```
 
 ![image-20220301225434954](../Picture_saving_address/JAVA-第七章面向对象中级编程/image-20220301225434954.png)
